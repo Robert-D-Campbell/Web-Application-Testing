@@ -1,0 +1,30 @@
+.App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+.display-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 50%;
+}
+.display-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 15%;
+  width: 100px;
+  max-width: 20%;
+  border: 1px solid black;
+
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  height: 50%;
+}
